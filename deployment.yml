@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app-web
-          image: hendrosteven/app-web:1.0
+          image: hendrosteven/app-web:2.0
           ports:
             - containerPort: 3000
 
