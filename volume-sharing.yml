@@ -18,7 +18,7 @@ spec:
           emptyDir: {}
       containers:
         - name: app-writer
-          image: hendrosteven/generate-html:2.0
+          image: hendrosteven/generate-html:1.0
           volumeMounts:
             - mountPath: /app/html
               name: html
